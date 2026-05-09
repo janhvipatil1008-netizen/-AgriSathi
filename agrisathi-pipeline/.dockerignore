@@ -1,0 +1,19 @@
+# Raw downloaded files — never copy into Docker image
+data/
+logs/
+
+# Downloaded file types
+*.aspx
+*.csv
+*.pdf
+*.html
+*.htm
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Local env files
+.env

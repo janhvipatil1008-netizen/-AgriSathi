@@ -1,0 +1,36 @@
+# ── Secrets — NEVER commit these ──────────────────────────────────────────────
+.env
+.env.docker
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── Data & logs ───────────────────────────────────────────────────────────────
+data/
+logs/
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+
+# ── Frontend build output & deps ───────────────────────────────────────────────
+agrisathi-frontend/node_modules/
+agrisathi-frontend/dist/
+agrisathi-frontend/dist-ssr/
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Downloaded/raw files ──────────────────────────────────────────────────────
+*.pdf
+*.csv
+*.html
+*.htm
+*.aspx
+*.bin
+.claude/

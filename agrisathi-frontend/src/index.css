@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #f0fdf4;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+}
+
+.chat-bubble-farmer {
+  background: #16a34a;
+  color: white;
+  border-radius: 18px 18px 4px 18px;
+}
+
+.chat-bubble-ai {
+  background: white;
+  border: 1px solid #d1fae5;
+  border-radius: 18px 18px 18px 4px;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,34 @@
+# Web / API
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+httpx>=0.27.0
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.9
+alembic>=1.13.0
+
+# Scheduler
+apscheduler>=3.10.4
+
+# PDF extraction
+pdfplumber>=0.11.0
+
+# HTML extraction
+beautifulsoup4>=4.12.0
+
+# Embeddings — CPU-only torch (flag passed via Dockerfile --extra-index-url)
+torch>=2.0.0
+sentence-transformers>=3.0.0
+
+# Vector store
+qdrant-client>=1.9.0
+
+# Near-duplicate detection
+datasketch>=1.6.5
+
+# Config
+python-dotenv>=1.0.0
+
+# LLM — Anthropic Claude
+anthropic>=0.40.0
